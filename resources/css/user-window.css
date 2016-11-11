@@ -1,0 +1,56 @@
+#chat-pane
+{
+    -fx-padding: 5px;
+}
+
+.scroll-pane
+{
+    -fx-fit-to-width: true;
+    -fx-fit-to-height: true;
+}
+.chat-board
+{
+    -fx-alignment: bottom-center;
+    -fx-background-color: #ffffff;
+    -fx-padding: 5px;
+}
+.input_text
+{
+    -fx-text-fill: #000000;
+    -fx-alignment: center-left;
+}
+.system_text
+{
+    -fx-text-fill: #e1387a;
+    -fx-alignment: center;
+}
+.output_text
+{
+    -fx-alignment: center-right;
+}
+.chat-tab
+{
+
+}
+.tab-pane
+{
+    -fx-tab-min-width: 50px;
+}
+.count-pane
+{
+    -fx-background-color: yellow;
+    -fx-background-size: stretch;
+    -fx-background-radius: 10px;
+}
+.txt-count
+{
+    -fx-font-size: 85%;
+    -fx-stroke: blue;
+    -fx-text-alignment: center;
+    -fx-opacity: 0.8;
+}
+
+.comment
+{
+    -fx-text-fill: blue;
+}

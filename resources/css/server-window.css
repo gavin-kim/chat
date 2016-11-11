@@ -1,0 +1,9 @@
+#root-pane
+{
+    -fx-padding: 5px;
+}
+.scroll-pane
+{
+    -fx-fit-to-width: true;
+    -fx-fit-to-height: true;
+}
